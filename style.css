@@ -1,10 +1,13 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
 div {
     padding: 50px;
     margin: auto;
     width: 170px;
     /* width: 500px; */
     text-align: center;
-    background-color: beige;
+    background: linear-gradient(#faf7f7, #c6bfbf);
 }
 time {
     display: flex;
@@ -13,21 +16,15 @@ time {
     transform: rotate(-9deg);
     font-size: 2rem;
     position: relative;
-    z-index: 5;
+   
     box-shadow: 1px 8px 0px 6px #c1c387;
     /* row-gap: 10px; not working on chrome*/
 }
-/*time::before {
-    position: absolute;
-    content: "";
-    width: 106%;
-    height: 100%;
-    background-color: aquamarine;
-    z-index: 1;
-}*/
+
 span#currentDate {
     border-bottom: 11px solid #e9dbdb;
     font-size: 4rem;
+    font-weight: 700;
 }
 span#currentMonth {
     background: red;
