@@ -1,0 +1,36 @@
+div {
+    padding: 50px;
+    margin: auto;
+    width: min(500px, 50%);
+    /* width: 500px; */
+    text-align: center;
+    background-color: beige;
+}
+time {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transform: rotate(-9deg);
+    font-size: 2rem;
+    position: relative;
+    z-index: 5;
+    box-shadow: 1px 8px 0px 6px #c1c387;
+    /* row-gap: 10px; not working on chrome*/
+}
+/*time::before {
+    position: absolute;
+    content: "";
+    width: 106%;
+    height: 100%;
+    background-color: aquamarine;
+    z-index: 1;
+}*/
+span#currentDate {
+    border-bottom: 11px solid #e9dbdb;
+    font-size: 4rem;
+}
+span#currentMonth {
+    background: red;
+    color: white;
+    padding: 5px;
+}
