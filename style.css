@@ -1,7 +1,7 @@
 div {
     padding: 50px;
     margin: auto;
-    width: min(500px, 50%);
+    width: 170px;
     /* width: 500px; */
     text-align: center;
     background-color: beige;
