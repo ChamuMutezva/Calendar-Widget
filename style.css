@@ -9,6 +9,9 @@ div {
     text-align: center;
     background: linear-gradient(#faf7f7, #c6bfbf);
 }
+h1 {
+    text-align: center;
+}
 time {
     display: flex;
     flex-direction: column;
