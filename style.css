@@ -7,7 +7,7 @@ div {
     width: 170px;
     /* width: 500px; */
     text-align: center;
-    background: linear-gradient(#faf7f7, #c6bfbf);
+    background: linear-gradient(#403737, #7b7575);
 }
 h1 {
     text-align: center;
@@ -18,9 +18,8 @@ time {
     background-color: white;
     transform: rotate(-9deg);
     font-size: 2rem;
-    position: relative;
-   
-    box-shadow: 1px 8px 0px 6px #c1c387;
+    position: relative;   
+    box-shadow: 1px 8px 0px 6px #33332f;
     /* row-gap: 10px; not working on chrome*/
 }
 
